@@ -2,6 +2,9 @@
   <img src="assets/logo.svg" width="140" alt="ClawShield logo" />
   <h1>ClawShield</h1>
   <p>Security preflight and guardrails for OpenClaw/Moltbot</p>
+  <p>
+    <img alt="CI" src="https://github.com/kappa9999/ClawShield/actions/workflows/ci.yml/badge.svg" />
+  </p>
 </div>
 
 ## Why
