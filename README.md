@@ -17,6 +17,11 @@
 curl -fsSL https://raw.githubusercontent.com/kappa9999/ClawShield/main/scripts/install.sh | bash
 ```
 
+## Homebrew (draft)
+```bash
+brew install --formula ./docs/homebrew/ClawShield.rb
+```
+
 ## Install (local dev)
 ```bash
 npm install
