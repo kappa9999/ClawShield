@@ -5,13 +5,16 @@
       <stop offset="100%" stop-color="#0f2c66"/>
     </linearGradient>
     <linearGradient id="claw" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f7d26a"/>
-      <stop offset="100%" stop-color="#c18b1e"/>
+      <stop offset="0%" stop-color="#ff9a7a"/>
+      <stop offset="100%" stop-color="#c62828"/>
     </linearGradient>
   </defs>
   <rect width="320" height="320" rx="48" fill="#0b1020"/>
   <path d="M160 40c52 0 96 20 96 20v92c0 72-50 122-96 128-46-6-96-56-96-128V60s44-20 96-20z" fill="url(#shield)"/>
-  <path d="M120 120c12-16 32-20 52-16 16 3 31 10 41 18" fill="none" stroke="url(#claw)" stroke-width="12" stroke-linecap="round"/>
-  <path d="M106 150c18-18 48-22 72-18 24 4 46 14 60 24" fill="none" stroke="url(#claw)" stroke-width="12" stroke-linecap="round"/>
-  <path d="M114 188c22-16 52-18 78-12 22 6 41 16 52 26" fill="none" stroke="url(#claw)" stroke-width="12" stroke-linecap="round"/>
+  <g fill="url(#claw)">
+    <path d="M196 112c26 0 48 22 48 48 0 24-18 44-41 47 6-9 9-19 9-30 0-18-14-32-32-32-12 0-22 6-28 16-6-10-16-16-28-16-18 0-32 14-32 32 0 11 4 21 9 30-23-3-41-23-41-47 0-26 22-48 48-48 12 0 24 5 32 13 8-8 20-13 32-13z"/>
+    <path d="M124 170c-16 0-30 13-30 30 0 10 5 19 12 24-14 6-29 8-40 6-10-2-16-10-14-20 4-20 14-38 30-52 10-9 24-14 38-14 6 0 12 1 18 3-9 7-14 14-14 23z"/>
+    <path d="M196 170c16 0 30 13 30 30 0 10-5 19-12 24 14 6 29 8 40 6 10-2 16-10 14-20-4-20-14-38-30-52-10-9-24-14-38-14-6 0-12 1-18 3 9 7 14 14 14 23z"/>
+    <circle cx="160" cy="200" r="22"/>
+  </g>
 </svg>

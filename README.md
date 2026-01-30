@@ -12,6 +12,11 @@
 - Enforce safer defaults for group chats and non-main agents.
 - Detect skill tampering via a simple lockfile.
 
+## Quick install (macOS/Linux)
+```bash
+curl -fsSL https://raw.githubusercontent.com/kappa9999/ClawShield/main/scripts/install.sh | bash
+```
+
 ## Install (local dev)
 ```bash
 npm install
