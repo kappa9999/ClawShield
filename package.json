@@ -12,6 +12,22 @@
   "scripts": {
     "test": "node --test"
   },
+  "keywords": [
+    "openclaw",
+    "moltbot",
+    "security",
+    "cli",
+    "agent",
+    "sandbox"
+  ],
+  "homepage": "https://github.com/kappa9999/ClawShield#readme",
+  "bugs": {
+    "url": "https://github.com/kappa9999/ClawShield/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kappa9999/ClawShield.git"
+  },
   "license": "MIT",
   "files": [
     "src",
