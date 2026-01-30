@@ -31,6 +31,12 @@ Common risks it helps prevent:
 curl -fsSL https://raw.githubusercontent.com/kappa9999/ClawShield/main/scripts/install.sh | bash
 ```
 
+## Install (Homebrew)
+```bash
+brew tap kappa9999/clawshield
+brew install clawshield
+```
+
 ## Install (local dev)
 ```bash
 npm install
@@ -94,11 +100,6 @@ launchctl load ~/Library/LaunchAgents/com.clawshield.watch.plist
 - Default config path: `~/.openclaw/openclaw.json` (override with `OPENCLAW_CONFIG_PATH`).
 - Default workspace: `~/.openclaw/workspace`.
 - The audit is read-only; only `apply safe --write` changes your config.
-
-## Homebrew (draft)
-```bash
-brew install --formula ./docs/homebrew/ClawShield.rb
-```
 
 ## Troubleshooting
 - If `clawshield` is not found, ensure npm global bin is on your PATH.
