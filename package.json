@@ -1,0 +1,28 @@
+﻿{
+  "name": "clawshield",
+  "version": "0.1.0",
+  "description": "Security preflight and guardrails for OpenClaw/Moltbot",
+  "type": "module",
+  "bin": {
+    "clawshield": "./src/cli.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "files": [
+    "src",
+    "skills",
+    "assets",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "commander": "^12.0.0",
+    "json5": "^2.2.3"
+  }
+}
